@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { prisma } from "../prisma/client";
 
 export const addEmployee = async (req: Request, res: Response) => {
   const { name, employeeId } = req.body;
